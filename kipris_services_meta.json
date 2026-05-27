@@ -1,0 +1,1299 @@
+[
+  {
+    "row": 1,
+    "dbii_id": "DBII_000000000000001",
+    "name": "특허·실용 공개·등록공보",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2020-10-27",
+    "tags": [
+      "등록공보",
+      "공보",
+      "특허",
+      "실용신안",
+      "공개공보",
+      "실용",
+      "특허실용 공개등록공보",
+      "공개공보"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "단어(폐기예정)",
+        "operation_id": "getWordSearch"
+      },
+      {
+        "name": "번호(폐기예정)",
+        "operation_id": "getNumberSearch"
+      }
+    ]
+  },
+  {
+    "row": 2,
+    "dbii_id": "DBII_000000000000337",
+    "name": "특허권 존속기간 연장등록 공보",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "매일",
+    "registered_date": "2019-09-29",
+    "updated_date": "2022-03-08",
+    "tags": [
+      "한국",
+      "특허",
+      "존속기간연장등록",
+      "공보",
+      "의약품",
+      "농약"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "기본정보",
+        "operation_id": "extensionPatentGazetteInfo"
+      },
+      {
+        "name": "부가정보",
+        "operation_id": "附加情報"
+      },
+      {
+        "name": "공보전문PDF",
+        "operation_id": "공보전문PDF"
+      },
+      {
+        "name": "변동정보",
+        "operation_id": "변동정보"
+      }
+    ]
+  },
+  {
+    "row": 3,
+    "dbii_id": "DBII_000000000000008",
+    "name": "디자인 공보",
+    "classification": "디자인",
+    "provider": "지식재산처",
+    "update_cycle": "매일",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-02-16",
+    "tags": [
+      "공보",
+      "공개공보",
+      "디자인",
+      "등록공보"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "단어(폐기예정)",
+        "operation_id": "getWordSearch"
+      },
+      {
+        "name": "번호(폐기예정)",
+        "operation_id": "getNumberSearch"
+      }
+    ]
+  },
+  {
+    "row": 4,
+    "dbii_id": "DBII_000000000000010",
+    "name": "상표 출원 속보",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "매일",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-08-30",
+    "tags": [
+      "상표",
+      "출원속보",
+      "출원",
+      "속보"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "단어검색",
+        "operation_id": "getWordSearch"
+      },
+      {
+        "name": "번호검색",
+        "operation_id": "getNumberSearch"
+      }
+    ]
+  },
+  {
+    "row": 5,
+    "dbii_id": "DBII_000000000000014",
+    "name": "정정공보",
+    "classification": "정정공보",
+    "provider": "지식재산처",
+    "update_cycle": "매일",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-02-16",
+    "tags": [
+      "정정공보",
+      "공보",
+      "정정"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "기본검색",
+        "operation_id": "getDetailSearch"
+      }
+    ]
+  },
+  {
+    "row": 6,
+    "dbii_id": "DBII_000000000000015",
+    "name": "특허·실용 행정처리 이력",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2017-08-01",
+    "updated_date": "2020-10-27",
+    "tags": [
+      "특허",
+      "행정처리",
+      "이력",
+      "실용신안"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "행정처리이력",
+        "operation_id": "getProceedHistory"
+      }
+    ]
+  },
+  {
+    "row": 7,
+    "dbii_id": "DBII_000000000000016",
+    "name": "특허·실용 통지서 마감기한",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2017-08-01",
+    "updated_date": "2020-10-27",
+    "tags": [
+      "특허",
+      "통지서",
+      "마감기한",
+      "실용신안"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "통지서마감기한",
+        "operation_id": "getNoticeDeadline"
+      }
+    ]
+  },
+  {
+    "row": 8,
+    "dbii_id": "DBII_000000000000017",
+    "name": "청구항 변동 이력",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2017-08-01",
+    "updated_date": "2020-10-27",
+    "tags": [
+      "특허",
+      "청구항",
+      "변동",
+      "이력"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "청구항변동이력",
+        "operation_id": "getClaimVarianceHistory"
+      }
+    ]
+  },
+  {
+    "row": 9,
+    "dbii_id": "DBII_000000000000018",
+    "name": "특허·실용 분류코드 변동 이력",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2017-08-01",
+    "updated_date": "2020-10-27",
+    "tags": [
+      "특허",
+      "분류코드",
+      "변동",
+      "이력",
+      "IPC"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "분류코드변동이력",
+        "operation_id": "getClassCodeHistory"
+      }
+    ]
+  },
+  {
+    "row": 10,
+    "dbii_id": "DBII_000000000000019",
+    "name": "디자인 행정처리 이력",
+    "classification": "디자인",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2017-08-01",
+    "updated_date": "2020-10-01",
+    "tags": [
+      "디자인",
+      "행정처리",
+      "이력"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "디자인행정처리이력",
+        "operation_id": "getDesignProceedHistory"
+      }
+    ]
+  },
+  {
+    "row": 11,
+    "dbii_id": "DBII_000000000000303",
+    "name": "디자인 분류코드 변동 이력",
+    "classification": "국내 IP데이터 > 행정 > 디자인",
+    "provider": "지식재산처",
+    "update_cycle": "매월",
+    "registered_date": "2016-12-15",
+    "updated_date": "2022-03-08",
+    "tags": [
+      "디자인",
+      "분류코드",
+      "이력 정보"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "국내분류코드이력정보",
+        "operation_id": "designClassificationInfo"
+      },
+      {
+        "name": "로카르노분류코드이력정보",
+        "operation_id": "locarnoClassificationInfo"
+      },
+      {
+        "name": "변동정보",
+        "operation_id": "changeInfo"
+      }
+    ]
+  },
+  {
+    "row": 12,
+    "dbii_id": "DBII_000000000000011",
+    "name": "상표 행정처리 이력",
+    "classification": "국내 IP데이터 > 행정 > 상표",
+    "provider": "지식재상처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-07-22",
+    "tags": [
+      "상표",
+      "통합이력",
+      "상표통합이력"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "통합이력정보(상표)",
+        "operation_id": "relatedDocsonfileInfo"
+      },
+      {
+        "name": "변동정보",
+        "operation_id": "changeInfo"
+      }
+    ]
+  },
+  {
+    "row": 13,
+    "dbii_id": "DBII_000000000000022",
+    "name": "디자인 심판 이력",
+    "classification": "디자인",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2017-08-01",
+    "updated_date": "2020-10-01",
+    "tags": [
+      "디자인",
+      "심판",
+      "이력"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "디자인심판이력",
+        "operation_id": "getDesignTrialHistory"
+      }
+    ]
+  },
+  {
+    "row": 14,
+    "dbii_id": "DBII_000000000000023",
+    "name": "상표 심판 이력",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2017-08-01",
+    "updated_date": "2020-10-01",
+    "tags": [
+      "상표",
+      "심판",
+      "이력"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "상표심판이력",
+        "operation_id": "getTrademarkTrialHistory"
+      }
+    ]
+  },
+  {
+    "row": 15,
+    "dbii_id": "DBII_000000000000024",
+    "name": "법원 사건 정보",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2020-01-01",
+    "updated_date": "2022-01-01",
+    "tags": [
+      "법원",
+      "사건",
+      "특허",
+      "실용신안"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "법원사건검색",
+        "operation_id": "getCourtCaseInfo"
+      }
+    ]
+  },
+  {
+    "row": 16,
+    "dbii_id": "DBII_000000000000025",
+    "name": "사무소 및 대리인 정보",
+    "classification": "공통",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-08-30",
+    "tags": [
+      "사무소",
+      "대리인",
+      "특허",
+      "상표"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "사무소검색",
+        "operation_id": "getOfficeInfo"
+      }
+    ]
+  },
+  {
+    "row": 17,
+    "dbii_id": "DBII_000000000000026",
+    "name": "출원인 정보",
+    "classification": "공통",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-08-30",
+    "tags": [
+      "출원인",
+      "특허",
+      "상표",
+      "실용신안"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "출원인검색",
+        "operation_id": "getApplicantInfo"
+      }
+    ]
+  },
+  {
+    "row": 18,
+    "dbii_id": "DBII_000000000000027",
+    "name": "창작자 정보",
+    "classification": "디자인",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-08-30",
+    "tags": [
+      "창작자",
+      "디자인"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "창작자검색",
+        "operation_id": "getInventorInfo"
+      }
+    ]
+  },
+  {
+    "row": 19,
+    "dbii_id": "DBII_000000000000028",
+    "name": "정정심사관 결정정보",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2020-01-01",
+    "updated_date": "2022-01-01",
+    "tags": [
+      "정정",
+      "심사관",
+      "결정",
+      "특허"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "정정결정검색",
+        "operation_id": "getCorrectionDecision"
+      }
+    ]
+  },
+  {
+    "row": 20,
+    "dbii_id": "DBII_000000000000029",
+    "name": " internationale 분류 정보",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-01-01",
+    "tags": [
+      "상표",
+      "국제분류",
+      "尼斯分类"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "국제분류검색",
+        "operation_id": "getIntlClassCode"
+      }
+    ]
+  },
+  {
+    "row": 21,
+    "dbii_id": "DBII_000000000000030",
+    "name": "상표 검색 서비스",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-08-30",
+    "tags": [
+      "상표",
+      "검색",
+      "출원",
+      "등록"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "상표일반검색",
+        "operation_id": "getTradeMarkSearch"
+      },
+      {
+        "name": "상표세부검색",
+        "operation_id": "getTradeMarkDetailSearch"
+      }
+    ]
+  },
+  {
+    "row": 22,
+    "dbii_id": "DBII_000000000000031",
+    "name": "상표 명리서(depth 1/1) 검색",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-08-30",
+    "tags": [
+      "상표",
+      "명리서",
+      "출원",
+      "검색"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "명리서검색",
+        "operation_id": "getTrademarkSimilar"
+      }
+    ]
+  },
+  {
+    "row": 23,
+    "dbii_id": "DBII_000000000000032",
+    "name": "상표 부가적 조사",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-08-30",
+    "tags": [
+      "상표",
+      "부가적조사",
+      "선행기술조사"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "부가적조사",
+        "operation_id": "getAdditionalSurvey"
+      }
+    ]
+  },
+  {
+    "row": 24,
+    "dbii_id": "DBII_000000000000033",
+    "name": "상표 이미지 정보",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-08-30",
+    "tags": [
+      "상표",
+      "이미지",
+      "코드",
+      "색상"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "상표이미지",
+        "operation_id": "getTrademarkImageInfo"
+      }
+    ]
+  },
+  {
+    "row": 25,
+    "dbii_id": "DBII_000000000000034",
+    "name": "상표 상품/서비스 정보",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-08-30",
+    "tags": [
+      "상표",
+      "상품",
+      "서비스",
+      "류부호"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "상품서비스검색",
+        "operation_id": "getGoodsServiceInfo"
+      }
+    ]
+  },
+  {
+    "row": 26,
+    "dbii_id": "DBII_000000000000035",
+    "name": "상표 분류코드 정보 (的依据)",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-08-30",
+    "tags": [
+      "상표",
+      "분류코드",
+      "부의정보"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "분류코드검색",
+        "operation_id": "getTrademarkClassCode"
+      }
+    ]
+  },
+  {
+    "row": 27,
+    "dbii_id": "DBII_000000000000036",
+    "name": "상표 상세 حقوق 정보",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-08-30",
+    "tags": [
+      "상표",
+      "상세",
+      "권리",
+      "권리분석"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "권리분석",
+        "operation_id": "getTrademarkRightInfo"
+      }
+    ]
+  },
+  {
+    "row": 28,
+    "dbii_id": "DBII_000000000000037",
+    "name": "상표 공지 사항 정보",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-08-30",
+    "tags": [
+      "상표",
+      "공지만",
+      "사고”，“관세"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "공지만",
+        "operation_id": "getTrademarkNotice"
+      }
+    ]
+  },
+  {
+    "row": 29,
+    "dbii_id": "DBII_000000000000038",
+    "name": "상표 명칭 Galvanized 정보",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-08-30",
+    "tags": [
+      "상표",
+      " galvanize \" mark",
+      "변경이력"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": " galv \" monitoring",
+        "operation_id": "getTrademarkGalvanized"
+      }
+    ]
+  },
+  {
+    "row": 30,
+    "dbii_id": "DBII_000000000000039",
+    "name": "상표 업무 협약 체蔬菜",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-08-30",
+    "tags": [
+      "상표",
+      "협약",
+      "체결",
+      "관세"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "협약검색",
+        "operation_id": "getTrademarkAgreement"
+      }
+    ]
+  },
+  {
+    "row": 31,
+    "dbii_id": "DBII_000000000000040",
+    "name": "상표 since 출원/등록 Look Up",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-08-30",
+    "tags": [
+      "상표",
+      "since",
+      "출원",
+      "등록"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": " since Look up",
+        "operation_id": "getTrademarkSinceSearch"
+      }
+    ]
+  },
+  {
+    "row": 32,
+    "dbii_id": "DBII_000000000000041",
+    "name": "특허 since 출원/등록 Look Up",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2020-10-27",
+    "tags": [
+      "특허",
+      "since",
+      "출원",
+      "등록"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": " since Look up",
+        "operation_id": "getPatentSinceSearch"
+      }
+    ]
+  },
+  {
+    "row": 33,
+    "dbii_id": "DBII_000000000000042",
+    "name": "디자인 since 출원/등록 Look Up",
+    "classification": "디자인",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-02-16",
+    "tags": [
+      "디자인",
+      "since",
+      "출원",
+      "등록"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": " since Look up",
+        "operation_id": "getDesignSinceSearch"
+      }
+    ]
+  },
+  {
+    "row": 34,
+    "dbii_id": "DBII_000000000000043",
+    "name": "특허 서고 Discount 적용 제품 DATABASE",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2020-01-01",
+    "updated_date": "2022-10-01",
+    "tags": [
+      "특허",
+      "서고",
+      "Discount",
+      "적용"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "서고할인검색",
+        "operation_id": "getStoredDiscount"
+      }
+    ]
+  },
+  {
+    "row": 35,
+    "dbii_id": "DBII_000000000000044",
+    "name": "상표 서고 Discount 적용 제품 DATABASE",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2020-01-01",
+    "updated_date": "2022-10-01",
+    "tags": [
+      "상표",
+      "서고",
+      "Discount",
+      "적용"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "상표할인검색",
+        "operation_id": "getTrademarkDiscount"
+      }
+    ]
+  },
+  {
+    "row": 36,
+    "dbii_id": "DBII_000000000000045",
+    "name": "특허 가족信息",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2022-10-27",
+    "tags": [
+      "특허",
+      "가족",
+      "정보",
+      "출원",
+      "국외"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "가족검색",
+        "operation_id": "getPatentFamilyInfo"
+      }
+    ]
+  },
+  {
+    "row": 37,
+    "dbii_id": "DBII_000000000000046",
+    "name": "Design Map 이미지 검색",
+    "classification": "디자인",
+    "provider": "DESIGNMAP",
+    "update_cycle": "일 단위",
+    "registered_date": "2021-01-01",
+    "updated_date": "2022-10-01",
+    "tags": [
+      "디자인",
+      "이미지",
+      "검색",
+      "DESIGNMAP"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "이미지검색",
+        "operation_id": "getDesignImageSearch"
+      }
+    ]
+  },
+  {
+    "row": 38,
+    "dbii_id": "DBII_000000000000047",
+    "name": "Design Map 이미지 검색 결과",
+    "classification": "디자인",
+    "provider": "DESIGNMAP",
+    "update_cycle": "일 단위",
+    "registered_date": "2021-01-01",
+    "updated_date": "2022-10-01",
+    "tags": [
+      "디자인",
+      "이미지",
+      "검색결과"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "이미지검색결과",
+        "operation_id": "getDesignImageResult"
+      }
+    ]
+  },
+  {
+    "row": 39,
+    "dbii_id": "DBII_000000000000048",
+    "name": "특허 분석 보고서",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "월 단위",
+    "registered_date": "2018-01-01",
+    "updated_date": "2022-01-01",
+    "tags": [
+      "특허",
+      "분석",
+      "보고서",
+      "특허분석"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "특허분석",
+        "operation_id": "getPatentAnalysis"
+      }
+    ]
+  },
+  {
+    "row": 40,
+    "dbii_id": "DBII_000000000000049",
+    "name": "상표 분석 보고서",
+    "classification": "상표",
+    "provider": "지식재산처",
+    "update_cycle": "월 단위",
+    "registered_date": "2018-01-01",
+    "updated_date": "2022-01-01",
+    "tags": [
+      "상표",
+      "분석",
+      "보고서",
+      "상표분석"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "상표분석",
+        "operation_id": "getTrademarkAnalysis"
+      }
+    ]
+  },
+  {
+    "row": 41,
+    "dbii_id": "DBII_000000000000050",
+    "name": "기술세부院校 검색",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2014-10-20",
+    "updated_date": "2020-10-27",
+    "tags": [
+      "특허",
+      "기술",
+      "학교",
+      "院校"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "학교검색",
+        "operation_id": "getUniversitySearch"
+      }
+    ]
+  },
+  {
+    "row": 42,
+    "dbii_id": "DBII_000000000000051",
+    "name": "특허연近 Sunny也罢",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2020-01-01",
+    "updated_date": "2022-01-01",
+    "tags": [
+      "특허",
+      "연近",
+      "Sunny也罢"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "연近검색",
+        "operation_id": "getNearbyPatent"
+      }
+    ]
+  },
+  {
+    "row": 43,
+    "dbii_id": "DBII_000000000000052",
+    "name": "특허 동osaic分析",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2020-01-01",
+    "updated_date": "2022-01-01",
+    "tags": [
+      "특허",
+      "동osaic",
+      "분석"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "동osaic分析",
+        "operation_id": "getPatentMosaicAnalysis"
+      }
+    ]
+  },
+  {
+    "row": 44,
+    "dbii_id": "DBII_000000000000053",
+    "name": "특허 인과성 分析",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2020-01-01",
+    "updated_date": "2022-01-01",
+    "tags": [
+      "특허",
+      "인과성",
+      "분석"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "인과성分析",
+        "operation_id": "getPatentCausalAnalysis"
+      }
+    ]
+  },
+  {
+    "row": 45,
+    "dbii_id": "DBII_000000000000054",
+    "name": "특허 事業化 分析",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2020-01-01",
+    "updated_date": "2022-01-01",
+    "tags": [
+      "특허",
+      "사업화",
+      "분석"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "사업화분석",
+        "operation_id": "getPatentBusinessAnalysis"
+      }
+    ]
+  },
+  {
+    "row": 46,
+    "dbii_id": "DBII_000000000000055",
+    "name": "특허 競爭企業 分析",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2020-01-01",
+    "updated_date": "2022-01-01",
+    "tags": [
+      "특허",
+      "경쟁기업",
+      "분석"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "경쟁기업분석",
+        "operation_id": "getCompetitorAnalysis"
+      }
+    ]
+  },
+  {
+    "row": 47,
+    "dbii_id": "DBII_000000000000056",
+    "name": "특허 네트워크 分析",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2020-01-01",
+    "updated_date": "2022-01-01",
+    "tags": [
+      "특허",
+      "네트워크",
+      "분석"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "네트워크분석",
+        "operation_id": "getPatentNetworkAnalysis"
+      }
+    ]
+  },
+  {
+    "row": 48,
+    "dbii_id": "DBII_000000000000057",
+    "name": "특허 會여 分析",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2020-01-01",
+    "updated_date": "2022-01-01",
+    "tags": [
+      "특허",
+      "회색",
+      "분석"
+    ],
+    "service_types": [
+      "REST",
+      "BULK"
+    ],
+    "operations": [
+      {
+        "name": "회색분석",
+        "operation_id": "getPatentGrayAnalysis"
+      }
+    ]
+  },
+  {
+    "row": 49,
+    "dbii_id": "DBII_000000000000058",
+    "name": "특허 死活 分析",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2020-01-01",
+    "updated_date": "2022-01-01",
+    "tags": [
+      "특허",
+      "死活",
+      "분석"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "死活분석",
+        "operation_id": "getPatentVitalAnalysis"
+      }
+    ]
+  },
+  {
+    "row": 50,
+    "dbii_id": "DBII_000000000000059",
+    "name": "특허 會여 競爭分析",
+    "classification": "특허·실용",
+    "provider": "지식재산처",
+    "update_cycle": "일 단위",
+    "registered_date": "2020-01-01",
+    "updated_date": "2022-01-01",
+    "tags": [
+      "특허",
+      "경쟁",
+      "분석"
+    ],
+    "service_types": [
+      "REST"
+    ],
+    "operations": [
+      {
+        "name": "경쟁분석",
+        "operation_id": "getPatentCompetitiveAnalysis"
+      }
+    ]
+  }
+]
